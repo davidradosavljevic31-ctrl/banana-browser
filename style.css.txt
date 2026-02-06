@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff7cc;
+  text-align: center;
+}
+
+header {
+  background: #ffd400;
+  padding: 20px;
+}
+
+.hero {
+  padding: 40px;
+}
+
+.banana {
+  width: 150px;
+  animation: float 2s infinite alternate;
+}
+
+@keyframes float {
+  from { transform: translateY(0); }
+  to { transform: translateY(-15px); }
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background: #ffb300;
+  padding: 15px 25px;
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.features {
+  background: white;
+  padding: 30px;
+}
+
+footer {
+  background: #ffd400;
+  padding: 10px;
+}
