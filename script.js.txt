@@ -1,0 +1,5 @@
+document.querySelectorAll(".btn").forEach(b => {
+  b.addEventListener("click", () => {
+    alert("🍌 Banana Browser se preuzima!");
+  });
+});
